@@ -22,6 +22,7 @@ STEP:7 compare the output with truth table.
 # Truth Table and Circuit Diagram
 ![image](https://github.com/RESMIRNAIR/DECODER2TO4/assets/154305926/e565d523-f8b2-4e01-8888-0eed4d07ec24)
 # VERILOG CODE:
+```
 module decoder(a,b,d);
 
 input a,b;
@@ -37,7 +38,8 @@ and g3(d[2],a,~b);
 and g4(d[3],a,b);
 
 endmodule
-# output
+```
+# OUTPUT
 ![image](https://github.com/Shreegobika/DECODER2TO4/assets/160569525/fd9c127c-1c51-4d79-bb14-f10ea201e5bd)
 # RESULT:
 Thus the verilog program for decoder has been simulated and verified successfully.
